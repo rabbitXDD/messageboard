@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
-  color: #333;
+  background:url(http://i.imgur.com/8xCZh8r.png);
+  color: green;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -8,7 +9,7 @@ body {
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
 }
 
@@ -34,9 +35,47 @@ div {
     margin-bottom: 10px;
   }
 }
-
-#notice {
-  color: green;
+#message_board{
+  font-size:20px;
+  font-family:monoplace;
+  color:rgb(22,1,235);
+  font-weight:bolder;
+  margin: 2px; 
+  position: absolute; 
+  top: 40%;
+  left: 10; 
+  width: 13%;
+  height: 5%;
+  background-color: #FFFFCC;
+}
+#hahaha{
+  font-size:20px;
+  font-family:monoplace;
+  color:rgb(22,1,235);
+  font-weight:bolder;
+  margin: 2px; 
+  position: absolute; 
+  top: 40%;
+  left: 10; 
+  width: 13%;
+  height: 5%;
+  background-color: #FFFFCC;
+}
+tr:hover{ 
+    background-color: rgba(50,198,145,0.4); 
+}
+td{
+  color: rgb(22,1,235); 
+  border-bottom:1px solid; 
+  font: 1.4em/1.5 serif; 
+  font-family: monoplace 正黑體;; 
+  font-weight: bolder;
+}
+th{
+  color: black; 
+  font: 1.4em/1.5 serif; 
+  font-family: monoplace 正黑體;; 
+  font-weight: bolder;
 }
 
 .field_with_errors {
